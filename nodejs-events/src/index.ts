@@ -1,9 +1,3 @@
-import * as EventEmitter from 'events'
+import { Main } from './dir-watcher'
 
-class Emitter extends EventEmitter {
-  constructor() {
-    super()
-  }
-}
-
-console.log(Emitter)
+Main()
